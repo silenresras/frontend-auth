@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import axios from 'axios';
 
-const API_URL = import.meta.env.MODE === "development" ? "http://localhost:7000/api/auth" : "/api/auth";
+const API_URL = import.meta.env.MODE === "development" ? "http://localhost:7000/api/auth" : "https://auth-backend-api-ce94.onrender.com/api/auth";
 
 
 
